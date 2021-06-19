@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mendeleev/Utils/GlobalFunctions.dart';
 import '../Utils/Colors.dart';
 
-class ChemicalElement extends StatelessWidget {
+class ChemicalElementWidget extends StatelessWidget {
 
   final String symbol;
   final int atomicNumber;
@@ -10,7 +10,7 @@ class ChemicalElement extends StatelessWidget {
   final int index;
   final Function tapFunction;
 
-  ChemicalElement({@required this.symbol, @required this.atomicNumber, @required this.category, @required this.index ,@required this.tapFunction});
+  ChemicalElementWidget({@required this.symbol, @required this.atomicNumber, @required this.category, @required this.index ,@required this.tapFunction});
 
   @override
   Widget build(BuildContext context){
