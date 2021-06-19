@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import '../Utils/colors.dart';
+import '../Utils/Colors.dart';
 
 
-class ElementDescriptionWidget extends StatelessWidget {
+class ChemicalElementDescription extends StatelessWidget {
 
   final String symbol;
   final String name;
@@ -16,24 +16,22 @@ class ElementDescriptionWidget extends StatelessWidget {
   final String electronicConfiguration;
   final String oxidationStates;
   final double atomicWeight;
-  final double baseWidth;
-  final double baseHeight;
 
-  ElementDescriptionWidget(
-      {@required this.symbol,
-       @required this.atomicNumber,
-       @required this.category,
-       @required this.atomicVol,
-       @required this.density,
-       @required this.electronegativity,
-       @required this.electronicConfiguration,
-       @required this.name,
-       @required this.tFusion,
-       @required this.tBoiling,
-       @required this.oxidationStates,
-       @required this.atomicWeight,
-       @required this.baseWidth,
-       @required this.baseHeight}
+  ChemicalElementDescription(
+      {
+        @required this.symbol,
+        @required this.atomicNumber,
+        @required this.category,
+        @required this.atomicVol,
+        @required this.density,
+        @required this.electronegativity,
+        @required this.electronicConfiguration,
+        @required this.name,
+        @required this.tFusion,
+        @required this.tBoiling,
+        @required this.oxidationStates,
+        @required this.atomicWeight,
+      }
   );
 
   @override
@@ -42,7 +40,7 @@ class ElementDescriptionWidget extends StatelessWidget {
       width: 110,
       height: 110,
       decoration: BoxDecoration(
-        color: PRIMARY_COLOR,
+        color: QColors.PRIMARY_COLOR,
         boxShadow: [
           BoxShadow(
             color: Color.fromRGBO(0, 0, 0, .3),
@@ -59,7 +57,7 @@ class ElementDescriptionWidget extends StatelessWidget {
             children: <Widget>[
               Container(
                   margin: EdgeInsets.only(left:5.0),
-                  child: Text(this.atomicNumber.toString(), style: TextStyle(color: PRIMARY_TEXT, fontSize: 14))
+                  child: Text('$atomicNumber', style: TextStyle(color: QColors.PRIMARY_TEXT, fontSize: 14))
               ),
               Container(
                   height: 5,
@@ -71,17 +69,17 @@ class ElementDescriptionWidget extends StatelessWidget {
           ),
           Container(
             margin: EdgeInsets.only(bottom:1.0),
-            child: Text(this.symbol, style: TextStyle(color: PRIMARY_TEXT, fontSize: 30),),
+            child: Text('$symbol', style: TextStyle(color: QColors.PRIMARY_TEXT, fontSize: 30)),
           ),
           Container(
             alignment: Alignment.center,
             margin: EdgeInsets.only(bottom:1.0),
-            child: Text(this.name, style: TextStyle(color: PRIMARY_TEXT, fontSize: 12),)
+            child: Text('$name', style: TextStyle(color: QColors.PRIMARY_TEXT, fontSize: 12))
           ),
           Container(
             alignment: Alignment.center,
             margin: EdgeInsets.only(bottom:1.0),
-            child: Text(this.oxidationStates, style: TextStyle(color: PRIMARY_TEXT, fontSize: 9)),
+            child: Text('$oxidationStates', style: TextStyle(color: QColors.PRIMARY_TEXT, fontSize: 9)),
           ),
           Container(
             alignment: Alignment.center,
@@ -89,8 +87,8 @@ class ElementDescriptionWidget extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: <Widget>[
-                Text(this.atomicWeight.toString(), style: TextStyle(color: PRIMARY_TEXT, fontSize: 8),),
-                Text(this.electronegativity.toString(), style: TextStyle(color: PRIMARY_TEXT, fontSize: 8),)
+                Text('$atomicWeight', style: TextStyle(color: QColors.PRIMARY_TEXT, fontSize: 8)),
+                Text('$electronegativity', style: TextStyle(color: QColors.PRIMARY_TEXT, fontSize: 8))
               ],
             ),
           ),
@@ -100,15 +98,15 @@ class ElementDescriptionWidget extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: <Widget>[
-                Text(this.density.toString(), style: TextStyle(color: PRIMARY_TEXT, fontSize: 8),),
-                Text(this.atomicVol.toString(), style: TextStyle(color: PRIMARY_TEXT, fontSize: 8),),
+                Text('$density', style: TextStyle(color: QColors.PRIMARY_TEXT, fontSize: 8)),
+                Text('$atomicVol', style: TextStyle(color: QColors.PRIMARY_TEXT, fontSize: 8)),
               ],
             ),
           ),
           Container(
             alignment: Alignment.center,
             margin: EdgeInsets.only(bottom:1.0),
-            child: Text(this.electronicConfiguration, style: TextStyle(color: PRIMARY_TEXT, fontSize: 8),),
+            child: Text('$electronicConfiguration', style: TextStyle(color: QColors.PRIMARY_TEXT, fontSize: 8)),
           )
         ],
       ),
