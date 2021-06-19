@@ -18,6 +18,8 @@ class GlobalFunctions{
         return QColors.NOBLE_GAS;
       case C_METALLOID:
         return QColors.METALLOID;
+      case C_NO_METALLIC:
+        return QColors.NO_METALLIC;
       default:
         return Color(0xff000000);
     }

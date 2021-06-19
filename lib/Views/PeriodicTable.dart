@@ -105,14 +105,14 @@ class _PeriodicTable extends State<PeriodicTable>{
           name: periodicTableElements[pos]['name'],
           atomicNumber: periodicTableElements[pos]['atomicNumber'],
           category: GlobalFunctions.getCategoryColor(periodicTableElements[pos]['category']),
-          density: periodicTableElements[pos]['density'],
-          atomicVol: periodicTableElements[pos]['atomicVol'],
+          density: periodicTableElements[pos]['density'].toDouble(),
+          atomicVol: periodicTableElements[pos]['atomicVol'].toDouble(),
           electronegativity: periodicTableElements[pos]['electronegativity'].toDouble(),
           tFusion: periodicTableElements[pos]['tFusion'].toDouble(),
           tBoiling: periodicTableElements[pos]['tBoiling'].toDouble(),
           electronicConfiguration: '1s',
           oxidationStates: '1, -1',
-          atomicWeight: periodicTableElements[pos]['atomicWeight']
+          atomicWeight: periodicTableElements[pos]['atomicWeight'].toDouble()
       );
     });
   }
@@ -163,8 +163,8 @@ class _PeriodicTable extends State<PeriodicTable>{
                     left: 300,
                     child:
                     Container(
-                      height: 90,
                       width: 95,
+                      height: 110,
                       padding: EdgeInsets.all(5.0),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -178,10 +178,10 @@ class _PeriodicTable extends State<PeriodicTable>{
                                   width: 12,
                                   decoration: BoxDecoration(
                                       borderRadius: BorderRadius.all(Radius.circular(100)),
-                                      color: QColors.LANTHANIDE
+                                      color: QColors.METALLIC
                                   ),
                                 ),
-                                Container(child:Text('Lantánidos', style: TextStyle(color: QColors.SECONDARY_TEXT, fontSize: 10)))
+                                Text('Metálicos', style: TextStyle(color: QColors.SECONDARY_TEXT, fontSize: 10))
                               ],
                             ),
                           ),
@@ -194,10 +194,26 @@ class _PeriodicTable extends State<PeriodicTable>{
                                   width: 12,
                                   decoration: BoxDecoration(
                                       borderRadius: BorderRadius.all(Radius.circular(100)),
-                                      color: QColors.METALLIC
+                                      color: QColors.NO_METALLIC
                                   ),
                                 ),
-                                Text('Metálicos', style: TextStyle(color: QColors.SECONDARY_TEXT, fontSize: 10))
+                                Text('No Metálicos', style: TextStyle(color: QColors.SECONDARY_TEXT, fontSize: 10))
+                              ],
+                            ),
+                          ),
+                          Container(
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: <Widget>[
+                                Container(
+                                  height: 12,
+                                  width: 12,
+                                  decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.all(Radius.circular(100)),
+                                      color: QColors.LANTHANIDE
+                                  ),
+                                ),
+                                Container(child:Text('Lantánidos', style: TextStyle(color: QColors.SECONDARY_TEXT, fontSize: 10)))
                               ],
                             ),
                           ),
