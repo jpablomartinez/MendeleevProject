@@ -14,34 +14,24 @@ class ChemicalElement {
   int category;
   double atomicWeight;
 
-  ChemicalElement(
-      this.name,
-      this.symbol,
-      this.atomicNumber,
-      this.density,
-      this.atomicVolume,
-      this.atomicWeight,
-      this.oxidationStates,
-      this.electronegativity,
-      this.fusionTemperature,
-      this.boilingTemperature,
-      this.electronicConfiguration
-  );
+  ChemicalElement(var obj){
+    this.name = obj['name'];
+    this.symbol = obj['symbol'];
+    this.atomicNumber = obj['atomicNumber'];
+    this.density = obj['density'].toDouble();
+    this.atomicVolume = obj['atomicVol'].toDouble();
+    this.atomicWeight = obj['atomicWeight'].toDouble();
+    this.oxidationStates = '1,-1';
+    this.electronegativity = obj['electronegativity'].toDouble();
+    this.fusionTemperature = obj['tFusion'].toDouble();
+    this.boilingTemperature = obj['tBoiling'].toDouble();
+    this.electronicConfiguration = '1s';
+    this.category = obj['category'];
+  }
 
-  factory ChemicalElement.fromJson(Map<String,dynamic> obj){
-    return ChemicalElement(
-        obj['name'],
-        obj['symbol'],
-        obj['atomicNumber'],
-        obj['density'].toDouble(),
-        obj['atomicVol'].toDouble(),
-        obj['atomicWeight'].toDouble(),
-        '1,-1',
-        obj['electronegativity'].toDouble(),
-        obj['tFusion'].toDouble(),
-        obj['tBoiling'].toDouble(),
-        '1s'
-    );
+  @override
+  String toString(){
+    return '$name \n $symbol';
   }
 
 

@@ -11,6 +11,8 @@ class RouterGenerator{
         return RouteSideTransition(widget: PeriodicTable(), settings: settings);
       case '/description':
         return RouteSideTransition(widget: ChemicalElementView(), settings: settings);
+      default:
+        return RouteSideTransition(widget: PeriodicTable(), settings: settings);
     }
   }
 

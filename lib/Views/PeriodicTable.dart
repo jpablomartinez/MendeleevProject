@@ -20,13 +20,12 @@ class _PeriodicTable extends State<PeriodicTable>{
   double baseWidth = 0;
   double baseHeight = 0;
   bool firstRender = false;
-  ChemicalElementDescription selectedElement;
+  Widget selectedElement = Container();
 
   @override
   void initState(){
     super.initState();
     SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
       DeviceOrientation.landscapeLeft,
     ]);
   }
@@ -34,8 +33,7 @@ class _PeriodicTable extends State<PeriodicTable>{
   @override
   dispose(){
     SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.portraitUp,
     ]);
     super.dispose();
   }
@@ -63,7 +61,7 @@ class _PeriodicTable extends State<PeriodicTable>{
   }
 
   void selectElement(int pos){
-    ChemicalElement e = ChemicalElement.fromJson(periodicTableElements[pos]);
+    ChemicalElement e = ChemicalElement(periodicTableElements[pos]);
     setState(() {
       selectedElement = ChemicalElementDescription(element: e);
     });
@@ -80,7 +78,7 @@ class _PeriodicTable extends State<PeriodicTable>{
         baseWidth = size.width;
         baseHeight = size.height;
         firstRender = true;
-        ChemicalElement e = ChemicalElement.fromJson(periodicTableElements[0]);
+        ChemicalElement e = ChemicalElement(periodicTableElements[0]);
         selectedElement = ChemicalElementDescription(element: e);
       }
     }
@@ -99,12 +97,12 @@ class _PeriodicTable extends State<PeriodicTable>{
                 children: [
                   Positioned(
                     top: 15,
-                    left: 300,
+                    left: 250,
                     child: ColorInfo()
                   ),
                   Positioned(
                       top: 20,
-                      left: 155,
+                      left: 130,
                       width: 110,
                       height: 110,
                       child: selectedElement

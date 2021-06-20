@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mendeleev/Views/PeriodicTable.dart';
+import 'package:mendeleev/Utils/Router.dart';
 
 void main() => runApp(MendeleevPeriodicTable());
 
@@ -13,9 +13,8 @@ class MendeleevPeriodicTable extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      routes: <String,WidgetBuilder>{
-        '/': (BuildContext context) => PeriodicTable()
-      },
+      initialRoute: '/',
+      onGenerateRoute: RouterGenerator.generateRoute,
     );
   }
 }

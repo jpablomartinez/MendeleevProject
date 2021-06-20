@@ -10,7 +10,7 @@ class QColors {
   static const HALOGENS = Color(0xff006a36);
   static const METALLIC = Color(0xff223494);
   static const LANTHANIDE = Color(0xffcbd48e);
-  static const ACTINIDES = Color(0xff67a484);
+  static const ACTINIDES = Color(0xfffdfdfd);
   static const NOBLE_GAS = Color(0xff673977);
   static const METALLOID = Color(0xffcb2626);
   static const SELECTED_ITEM = Color(0xffB06B19);
