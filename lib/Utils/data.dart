@@ -1,57 +1,49 @@
 Map h = {
-  'desc1': 'Hidrógeno (Z = 1) es el elemento químico más ligero que existe. En condiciones normales se encuentra en estado gaseoso, y es inflamable, insípido, incoloro e inodoro.',
-  'desc2': 'En la Tierra es muy abundante, constituye el 75% de la materia del universo. Se encuentra combinado con otros elementos como el oxígeno formando agua u otros compuestos orgánicos.',
-  'desc3': 'En la industria suele ser utilizado como combustible para el transporte y para generar electricidad mediante pilas de combustible.',
+  'desc1': 'Hidrógeno (Z = 1) es el elemento químico más ligero que existe. En condiciones normales se encuentra en estado gaseoso, y es inflamable, insípido, incoloro e inodoro. En la Tierra es muy abundante, constituye el 75% de la materia del universo. Se encuentra combinado con otros elementos como el oxígeno formando agua u otros compuestos orgánicos.',
+  'desc2': 'En la industria suele ser utilizado como combustible para el transporte y para generar electricidad mediante pilas de combustible.',
   'bib': 'https://www.cnh2.es/el-hidrogeno/;https://es.wikipedia.org/wiki/Hidr%C3%B3geno'
 };
 
 Map he = {
   'desc1': 'Helio (Z = 2) corresponde al primer gas noble de la tabla periódica, esto implica que por lo general no reacciona con otros elementos. Es un gas incoloro e inodoro y no inflamable. No puede ser congelado y solo puede ser liquado bajo grandes presiones',
-  'desc2': 'Es el segundo elemento más abundante en el universo. La mayor parte del helio se formó luego del Big Bang',
-  'desc3': 'Es más ligero que el aire por lo que suele ser usado como gas de relleno en globos y zepelines publicitarios, para investigación e incluso para reconocimiento militar',
+  'desc2': 'Es más ligero que el aire por lo que suele ser usado como gas de relleno en globos y zepelines publicitarios, para investigación e incluso para reconocimiento militar',
   'bib': 'https://es.wikipedia.org/wiki/Helio'
 };
 
 Map li = {
-  'desc1': 'Litio (Z = 3) es un metal blado, de color blanco plata que se oxida rápidamente en aire o agua. Es muy reactivo, aunque menos que el sodio. Es el metal más ligero y presenta excelentes condiciones en la conducción del calor y electricidad. Es altamente inflamable, ligeramente explosivo cuando se expone al aire y especialmente al agua. Además, es corrosivo por lo que requiere de especial cuidado.',
-  'desc2': 'Se encuentra principalemente en salmueras naturales, pegmatitas, pozos petrolíferos, campos geotermales y agua de mar. Argentina, Bolivia, Chile y Perú tienen el 85% de litio del planeta. ',
-  'desc3': 'El litio puede ser usado a nivel biológico al sustituir el sodio a nivel de las membranas biológicas. Se ha encontrado que incrementa la permeabilidad celulary actúa sobre los neurotransmisores favoreciendo la estabilidad del estado de ánimo. También es usado en la industria eléctrica, vidrio y cerámica.',
+  'desc1': 'Litio (Z = 3) es un metal blado, de color blanco plata que se oxida rápidamente en aire o agua. Es muy reactivo, aunque menos que el sodio. Es el metal más ligero y presenta excelentes condiciones en la conducción del calor y electricidad. Es altamente inflamable, ligeramente explosivo cuando se expone al aire y especialmente al agua. Además, es corrosivo por lo que requiere de especial cuidado. Se encuentra principalemente en salmueras naturales, pegmatitas, pozos petrolíferos, campos geotermales y agua de mar. Argentina, Bolivia, Chile y Perú tienen el 85% de litio del planeta. ',
+  'desc2': 'El litio puede ser usado a nivel biológico al sustituir el sodio a nivel de las membranas biológicas. Se ha encontrado que incrementa la permeabilidad celulary actúa sobre los neurotransmisores favoreciendo la estabilidad del estado de ánimo. También es usado en la industria eléctrica, vidrio y cerámica.',
   'bib': 'https://es.wikipedia.org/wiki/Litio;https://www.minmineria.cl/usos-del-litio/'
 };
 
 Map be = {
-  'desc1': 'Berilio (Z = 4) es un metal raro que posee diversas propiedades poco comunes e incluso únicas. Es extremadamente liviano y duro. Es un buen conductor de electricidad y calor, no es magnético.',
-  'desc2': 'Se encuentra principalmente en rocas de berilio y bertrandita. ',
-  'desc3': 'Se usa en productos comerciales y de consumo de alta tecnología, entre ellos componentes aerospaciales, transistores, reactores nucleares y palos de golf. No obstante es uno de los elementos más tóxicos para los seres vivos. Si se respira directamente puede provovar daño en los pulmones (berilosis) e incluso dañar otros órganos. Puede causar reacciones alérgicas en personas hipersensibles. Puede incrementar la posibilidad de desarrollar cáncer y daños en el ADN.',
+  'desc1': 'Berilio (Z = 4) es un metal raro que posee diversas propiedades poco comunes e incluso únicas. Es extremadamente liviano y duro. Es un buen conductor de electricidad y calor, no es magnético. Se encuentra principalmente en rocas de berilio y bertrandita. ',
+  'desc2': 'Se usa en productos comerciales y de consumo de alta tecnología, entre ellos componentes aerospaciales, transistores, reactores nucleares y palos de golf. No obstante es uno de los elementos más tóxicos para los seres vivos. Si se respira directamente puede provovar daño en los pulmones (berilosis) e incluso dañar otros órganos. Puede causar reacciones alérgicas en personas hipersensibles. Puede incrementar la posibilidad de desarrollar cáncer y daños en el ADN.',
   'bib': 'https://www.lenntech.es/periodica/elementos/be.htm;https://es.wikipedia.org/wiki/Berilio;https://www.cancer.gov/espanol/cancer/causas-prevencion/riesgo/sustancias/berilio'
 };
 
 Map b = {
-  'desc1': 'Boro (Z = 5) es un metaloide semiconductor que existe abundantemente en el mineral bórax. Hay dos alótropos de boro (estructuras atómicas diferentes pero que representan al mismo elemento). El boro amorfo es un polvo marrón y el metálico es negro. El boro metálico es un mal conductor a temperatura ambiente. ',
-  'desc2': 'El boro se encuentra en bajísimas cantidades en el universo, es más, el boro junto al litio, molibdeno y el berilio forman el cuarteto de elementos ligeros más escasos en el universo,',
-  'desc3': 'El boro no es tóxico para seres humanos ni animales, no obstante los boranos(compuestos de boro de hidrógeno) los cuales si son tóxicos e inflamables. Suele ser utilizado en la industria metalúrgica debido a su alta conductividad térmica, en particular para refinar aluminio y facilitar el tratamiento térmico del hierro maleable. Cuando los animales absorben grandes cantidades de boro en un período de tiempo corto a través de comida o agua los órganos reproductivos masculinos serán afectados. Es importante destacar que el boro no se acumula en tejido animal. La mayor exposición a boro se produce por el polvo de boro en lugares de trabajo.',
+  'desc1': 'Boro (Z = 5) es un metaloide semiconductor que existe abundantemente en el mineral bórax. Hay dos alótropos de boro (estructuras atómicas diferentes pero que representan al mismo elemento). El boro amorfo es un polvo marrón y el metálico es negro. El boro metálico es un mal conductor a temperatura ambiente. Se encuentra en bajísimas cantidades en el universo, es más, el boro junto al litio, molibdeno y el berilio forman el cuarteto de elementos ligeros más escasos en el universo.',
+  'desc2': 'El boro no es tóxico para seres humanos ni animales, no obstante los boranos(compuestos de boro de hidrógeno) los cuales si son tóxicos e inflamables. Suele ser utilizado en la industria metalúrgica debido a su alta conductividad térmica, en particular para refinar aluminio y facilitar el tratamiento térmico del hierro maleable. Cuando los animales absorben grandes cantidades de boro en un período de tiempo corto a través de comida o agua los órganos reproductivos masculinos serán afectados. Es importante destacar que el boro no se acumula en tejido animal. La mayor exposición a boro se produce por el polvo de boro en lugares de trabajo.',
   'bib': 'https://es.wikipedia.org/wiki/Boro;https://medlineplus.gov/spanish/druginfo/natural/894.html;https://www.lenntech.es/periodica/elementos/b.htm'
 };
 
 Map c = {
-  'desc1': 'Carbono (Z = 6) es un no metal escencial para la química orgánica. Esta presente en la Tierra en diversas formas tales como: carbón, diamante, entre otros. ',
-  'desc2': 'El uno de los elementos más abundantes en la corteza terrestre y es el cuarto elemento más abundante en el universo en masa después del hidrógeno, helio y oxígeno. La abundancia del carbono y su facilidad para formar polímeros a temperaturas usuales en la Tierra permite que sea un elemento común de toda la vida conocida.',
-  'desc3': 'Dentro de todos los usos del carbono se puede destacar: ',
-  'bib': 'https://es.wikipedia.org/wiki/Carbono;'
+  'desc1': 'Carbono (Z = 6) es un no metal escencial para la química orgánica. Esta presente en la Tierra en diversas formas tales como: carbón, diamante, entre otros. El uno de los elementos más abundantes en la corteza terrestre y es el cuarto elemento más abundante en el universo en masa después del hidrógeno, helio y oxígeno. La abundancia del carbono y su facilidad para formar polímeros a temperaturas usuales en la Tierra permite que sea un elemento común de toda la vida conocida.',
+  'desc2': 'El grafito, uno de los materiales más blandos conocidos, es una forma de carbono que se utiliza principalmente como lubricante. Aunque ocurre naturalmente, la mayor parte del grafito comercial se produce mediante el tratamiento de coque de petróleo, un residuo de alquitrán negro que queda después del refinamiento del petróleo crudo, en un horno sin oxígeno. El diamante, la tercera forma natural de carbono, es una de las sustancias más duras conocidas. Aunque el diamante natural se usa típicamente para joyería, la mayoría de los diamantes de calidad comercial se producen artificialmente. Estos pequeños diamantes se fabrican exprimiendo grafito a altas temperaturas y presiones durante varios días o semanas y se utilizan principalmente para fabricar cosas como hojas de sierra con punta de diamante. Aunque poseen propiedades físicas muy diferentes, el grafito y el diamante difieren solo en su estructura cristalina.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/6;https://es.wikipedia.org/wiki/Carbono;'
 };
 
 Map n = {
-  'desc1': 'Nitrógeno (Z = 7) es un no metal que forma parte del 78% del aire atmosférico. A temperatura y presión estándar, dos átomos de nitrógeno se unen para formar un gas incoloro e inodoro llamado dinitrógeno. Es el cuarto elemento más abundante en el cuerpo humano, después del oxígeno, carbono e hidrógeno.',
-  'desc2': 'Es un elemento común en el universo. También puede ser encontrado en restos de animales (guano) usualmente en la úrea, ácido úrico y compuestos de ambos.',
-  'desc3': 'Es un elemento escencial para los aminoácidos y los acidos nucleicos vitales para los seres vivos. Es el que mayor efecto tiene en el crecimiento de las plantas, afectando directamente a la productividad primaria de los ecosistemas. Las plantas solo pueden asimilarlo eficientemente en forma de iones amonio o nitratos. Los efectos más comunes en la salud humana son: disminución del funcionamiento de la glándula tiroidea, ocasiona un bajo almacenamiento de la vitamina A, favorece la producción de nitrosaminas, las cuales son conocidas como una de las causas más comunes de cáncer. Las sales de ácido nítrico incluyen nitrato de potasio, elemento usado en la fabricación de pólvora. Los compuestos orgánicos como la nitroglicerina y el trinitrotolueno son a menudo explosivos.',
+  'desc1': 'Nitrógeno (Z = 7) es un no metal que forma parte del 78% del aire atmosférico. A temperatura y presión estándar, dos átomos de nitrógeno se unen para formar un gas incoloro e inodoro llamado dinitrógeno. Es el cuarto elemento más abundante en el cuerpo humano, después del oxígeno, carbono e hidrógeno. Es un elemento común en el universo. También puede ser encontrado en restos de animales (guano) usualmente en la úrea, ácido úrico y compuestos de ambos.',
+  'desc2': 'Es un elemento escencial para los aminoácidos y los acidos nucleicos vitales para los seres vivos. Es el que mayor efecto tiene en el crecimiento de las plantas, afectando directamente a la productividad primaria de los ecosistemas. Las plantas solo pueden asimilarlo eficientemente en forma de iones amonio o nitratos. Los efectos más comunes en la salud humana son: disminución del funcionamiento de la glándula tiroidea, ocasiona un bajo almacenamiento de la vitamina A, favorece la producción de nitrosaminas, las cuales son conocidas como una de las causas más comunes de cáncer. Las sales de ácido nítrico incluyen nitrato de potasio, elemento usado en la fabricación de pólvora. Los compuestos orgánicos como la nitroglicerina y el trinitrotolueno son a menudo explosivos.',
   'bib': 'https://es.wikipedia.org/wiki/Nitr%C3%B3geno;https://www.lenntech.es/periodica/elementos/n.htm'
 };
 
 Map o = {
-  'desc1': 'Con un valor Z = 8, dos átomos de oxígeno en condiciones normales de temperatura y presión forma dioxígeno, un gas incoloro, inodoro e insípido. Esta sustancia forma parte importante en la atmósfera del planeta Tierra y resulta escencial para sostener la vida terrestre. El Oxígeno es un elemeno no metálico altamente reactivo que forma fácilmente compuestos con la mayoría de los elementos, excepto con los gases nobles helio y neón.',
-  'desc2': 'Es el tercer elemento más abundante en el universo y más abundante en la corteza terrestre. ',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Con un valor Z = 8, dos átomos de oxígeno en condiciones normales de temperatura y presión forma dioxígeno, un gas incoloro, inodoro e insípido. Esta sustancia forma parte importante en la atmósfera del planeta Tierra y resulta escencial para sostener la vida terrestre. El Oxígeno es un elemeno no metálico altamente reactivo que forma fácilmente compuestos con la mayoría de los elementos, excepto con los gases nobles helio y neón. Es el tercer elemento más abundante en el universo y más abundante en la corteza terrestre.',
+  'desc2': 'El oxígeno es un elemento altamente reactivo y es capaz de combinarse con la mayoría de los demás elementos. Es requerido por la mayoría de los organismos vivos y para la mayoría de las formas de combustión. Las impurezas en el arrabio fundido se queman con corrientes de oxígeno a alta presión para producir acero. El oxígeno también se puede combinar con acetileno (C2H2) para producir una llama extremadamente caliente que se utiliza para soldar. El oxígeno líquido, cuando se combina con hidrógeno líquido, es un excelente combustible para cohetes. El ozono (O3) forma una fina capa protectora alrededor de la tierra que protege la superficie de la radiación ultravioleta del sol. El oxígeno también es un componente de cientos de miles de compuestos orgánicos.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/8;https://www.lenntech.es/periodica/elementos/o.htm'
 };
 
 Map f = {
@@ -343,435 +335,373 @@ Map ba = {
 };
 
 Map lu = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Lutecio (Z = 71) es un metal muy raro. Solo se ha podido aislar en los últimos años. Es de color blanco plateado y relativamente estable en el aire. Se encuentra en cantidades muy pequeñas en casi todos los minerales que contienen itrio',
+  'desc2': 'Es uno de los elementos más difíciles de preparar y no tiene usos prácticos a gran escala, aunque algunos isótopos radoactovps se pueden utilizar coom catalizador en el craqueo de productos petrolíferos y como catalizador en algunos procesos de hidrogenación y polimerización',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/71;https://www.lenntech.es/periodica/elementos/lu.htm'
 };
 
 Map hf = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Hafnio (Z = 72) es un metal dúctil con un brillo plateado brillante. Sus propiedades están considerablemente influenciadas pro la presencia de impurezas de circonio. Se ha aleado con éxito con hierro, titanio, niobio, tantalio y otros metales',
+  'desc2': 'El hafnio es un buen absorbedor de neutrones y se utiliza en las barras de control de los reactores nucleares y como agente de aleación.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/72;https://www.lenntech.es/periodica/elementos/hf.htm'
 };
 
 Map ta = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Tantalio (Z = 73) es un metal gris, pesado y muy duro. Cuando está puro es dúctil y se puede estirar en alambre fino que se utiliza como filamento para evaporar metales como el aluminio. Es casi inmune al ataque químico a temperaturas por debajo de 150°C. A altas temperaturas se vuelve mucho más reactivo.',
+  'desc2': 'Se utiliza para fabricar componentes para plantas químicas, centrales nucleares, aviones y misiles. El tantalio no reacciona con los fluidos corporales y se usa para fabricar equipo quirúrgico. Y dado que tampoco irrita la piel se utiliza para hacer suturas quirúrgicas e implantes como articulaciones artificiales y placas craneales. Se alea con el acero para aumentar la ductilidad, resistencia y su punto de fusión.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/73;https://www.lenntech.es/periodica/elementos/ta.htm'
 };
 
 Map w = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Volframio (Z = 74) o Tungsteno en su estado puro es un metal color gris acero a blanco estaño. En su estado más puro se puede cortar una sierra para metales, forjar, hilar, estirar y extruir. El metal impuro es frágil. Tiene el punto de fusión más alto de todos los metales y a temperaturas superiores a 1650°C tiene la mayor resistencia a la tracción. Se oxida en el aire y debe protegerse a temperaturas elevadas. Tiene una excelente resistencia a la corrosión.',
+  'desc2': 'Dado su alto punto de fusión se utiliza para fabricar filamentos para bombillas incandescentes, bombillas fluorescentes y tubos de televisión. Se alea con el acero para formar metales duros que son estables a altas temperaturas. Las aleaciones de acero de tungsteno se utilizan para fabricar herramientas de corte de alta velocidad y boquillas de motores de cohetes.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/74;https://www.lenntech.es/periodica/elementos/w.htm'
 };
 
 Map re = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Renio (Z = 75) es un elemento blanco plateado con brillo metálico. A altas temperaturas es muy dúctil y se puede doblar o enrrollar. Se encuentra en la naturaleza en estado elemental y no se ha encontrado en ninguna mena mineral.',
+  'desc2': 'Se añade al wolframio y al molibdeno para formar aleaciones que son usadas para filamentos de hornos y lámparas. También se empleaen pares térmicos que pueden medir temperaturas por encima de 2000°C. Suele ser usado como catalizadoren la industria química, especialmente en procesos relacionados con la adición de hidrógeno gas a otras moléculas.',
+  'bib': 'https://www.lenntech.es/periodica/elementos/re.htm;https://pubchem.ncbi.nlm.nih.gov/element/75'
 };
 
 Map os = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Osmio (Z = 76) es un metal brillante de color blanco azulado, extremadamente duro y quebradizo a altas temperaturas. Tiene el punto de fusión y la presión de vapor más baja del grupo del platino. El polvo de osmio emite lentamente tetróxido de osmio, el cual es un poderoso agente oxidante al estar en contacto con el aire, de olor fuerte y muy tóxico.',
+  'desc2': 'Dada su toxicidad se usa principalmente para hacer aleaciones muy duras. Las aleaciones de osmio pueden ser encontradas en puntas de bolígrafos, puntas de plumna estolográfica, agujas de tocadiscos, contactos eléctricos y otros dispositivos en donde se debe minimizar el desgaste por fricción.',
+  'bib': 'https://www.lenntech.es/periodica/elementos/os.htm;https://pubchem.ncbi.nlm.nih.gov/element/76'
 };
 
 Map ir = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Iridio (Z = 77) es un metal de la familia del platino, es blanco, pero con un tono ligeramente amarillo. Debido a que es muy duro y quebradizo es difícil de mecanizar, formar o trabajar. Es el metal más resistente a la corrosión que se conoce. Se utilizó para fabricar la barra métrica estándar de Paris.',
+  'desc2': 'Debido a su fragilidad es muy difícil de mecanizar, por lo que se suele utilizar principalmente como agente endurecedor del platino. Estas aleaciones se utilizan para fabricar crisoles y otros equipos de altas temperaturas.',
+  'bib': 'https://www.lenntech.es/periodica/elementos/ir.htm;https://pubchem.ncbi.nlm.nih.gov/element/77'
 };
 
 Map pt = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Platino (Z = 78) es un metal blanco plateado cuando es puro, maleable y dúctil. El metal no se oxida al aire a ninguna temperatura, pero es corroído por halógenos, cianuros, azufre, entre otros. Es insoluble en ácido clorhídrico y nítrico. Se utiliza mucho en el campo de la química a causa de su actividad catalítica y de su baja reactividad',
+  'desc2': 'Se utiliza paa hacer joyas, alambres, contactos eléctricos y recipientes de laboratorio. Los alambres de resistencia de platino se utilizan para construir hornos eléctricos de altas temperaturas. También suele ser utilizado para recubrir conos de punta de misisles, boquillas de combustible de motores a reacción, en general, en productos que deben funcionar durante largos períodos de tiempo a altas temperaturas.',
+  'bib': 'https://www.lenntech.es/periodica/elementos/pt.htm;https://pubchem.ncbi.nlm.nih.gov/element/78'
 };
 
 Map au = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Oro (Z = 79) En estado puro es considerado el metal más bello. Es metálico y de color amarillo cuando está en masa, pero cuando está finamente dividido puede ser negro, rubí o violeta. Es el metal más maleable y dúctil. Es un buen conductor de calor y electricidad y no se ve afectado por el aire ni por la mayoría de los reactivos.',
+  'desc2': 'El oro puro es blando y generalmente se alea con otros metales, como plata, cobre, platino o paladio para aumentar su resistencia. Las aleaciones de oro se utilizan para hacer joyas, artículos decorativos, empastes dentales y monedas. La cantidad de oro en una aleación se mide en quilates. Un quilate corresponde a 1 parte en 24, por lo que un anillo de oro de 18 quilates contiene 18 partes de oro puro y 6 partes de aleación. Se utiliza para fabricar conectores eléctricos y placas de circuito impreso. Un isótopo radiactivo de oro,  el oro-198, se utiliza para tratar el cancer.',
+  'bib': 'https://www.lenntech.es/periodica/elementos/au.htm;https://pubchem.ncbi.nlm.nih.gov/element/79'
 };
 
 Map hg = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Mercurio (Z = 80) es un metal pesado, de color blanco plateado. Un mal conductor de calor en comparación a otros metales y un buen conductor de electricidad. Forma facilmente aleaciones con muchos metales, como oro, plata y estaño. Estas se denominan amalgamas. Los compuestos orgánicos del mercurio son importantes. Se ha descubierto que una descarga eléctrica hace que el vapor de mercurio se combien con neón, argón, criptón y xenón. Es un veneno virulento y se absorbe facilmente a través del tracto respiratorio, el tracto gastrointestinal o la piel intacta.',
+  'desc2': 'Se puede utilizar para fabricar termómetros, barómetros y otros instrumentos del área de las ciencias. Se utiliza para fabricar interruptores eléctricos silenciosos que dependen de la posición.',
+  'bib': 'https://www.lenntech.es/periodica/elementos/hg.htm;https://pubchem.ncbi.nlm.nih.gov/element/80'
 };
 
 Map tI = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Talio (Z = 81). Cuando recién está expuesto al aire exhibe un brillo metálico, pero pronto muestra un tinte gris azulado, similar al plomo en apariencia. Esm muy blando y maleable, pudiendo ser cortado con cuchillo.',
+  'desc2': 'El talio metálico no tiene usos, ya que en estado puro se combina rapidamente con oxígeno y el vapor de agua de la atmósfera, formando una sustancia negra en polvo.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/81;https://www.lenntech.es/periodica/elementos/ti.htm'
 };
 
 Map pb = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Plomo (Z = 82) es un metal blanco azulado de brillo brillante. Es muy suave, muy maleable, dúctil y un mal conductor de la electricidad. Es muy resistente a la corrosión. Las tuberías de plomo con las insignias de los emperadores romanos, utilizadas como desagües de los baños, todavía están en servicio. Es un veneno acumulativo.',
+  'desc2': 'Su alta densidad lo hace útil como escudo contra los rayos X y la radiación de rayos gamma. Es usado en la industria automotriz como elemento en las baterías de almacenamiento de plomo-ácido. Se utiliza en recipientes para líquidos corrosivos.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/82;https://www.lenntech.es/periodica/elementos/pb.htm'
 };
 
 Map bi = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Bismuto (Z = 83) en su estado puro es un metal blanco cristalino y quebradizo con un tinte rosado. Es el elemento más diamagnético de todos los metales y la conductividad térmica más baja que la de cualquier metal, excepto el mercurio. Tiene una alta resistencia eléctrica. ',
+  'desc2': 'Generalmente se alea con otros metales como plomo, estaño, hierro o cadmio para formar aleaciones de bajo punto de fusión. Estas aleaciones se utilizan en sistemas automáticos de rociadores contra incendios, sistemas de detección de incendios y fusibles eléctricos.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/83;https://www.lenntech.es/periodica/elementos/bi.htm'
 };
 
 Map po = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Polonio (Z = 84), como metal es químicamente parecido al telurio. Es blando y sus propiedades físicas recuerdan a las del talio, plomo y bismuto. Su isótopo más conocido es Po-210, un elemento altamente radiactivo. Casi todo el estudio del polonio se a descubierto gracias al Po-210. Este isótopo es un metal de bajo punto de fusión y bastante volátil.',
+  'desc2': 'Se puede utilizar para eliminar la electricidad estática. Es una fuente de neutrones cuando se combina con berilio.',
+  'bib': 'https://www.lenntech.es/periodica/elementos/po.htm;https://pubchem.ncbi.nlm.nih.gov/element/84'
 };
 
 Map at = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Astato (Z = 85) es un elemento muy inestable que existe solo en formas radiactivas de vida corta. En la naturaleza se encuentra como parte integrante de los minerales de uranio, perso solo en cantidades traza de isótopos de vida corta. La cantidad total de ástato en la corteza terrestre es menor que 28g.',
+  'desc2': 'Debido a las pequeñas cantidades producidas y su corta vida media, actualmente no hay usos para el astato fuera de la investigación científica.',
+  'bib': 'https://www.lenntech.es/periodica/elementos/at.htm;https://pubchem.ncbi.nlm.nih.gov/element/85'
 };
 
 Map rn = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Radón (Z = 86) es una emanación gaseosa producto de la desintegración radiactiva del radio. Es el elemento más pesado del grupo de los gases nobles. A temperaturas ordinarias el radón es un gas incoloro. Cuando se enfría por debajo del punto de congelación exhibe una fosforescencia brillante que se vuelve amarilla a medida que baja la temperatura y de color rojo anaranjado a la temperatura del aire líquido.',
+  'desc2': 'Algunos hospitales utilizan pequeñas cantidades para tratar algunas formas de cáncer',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/86;https://www.lenntech.es/periodica/elementos/rn.htm'
 };
 
 Map fr = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Francio (Z = 87) es un metal alcalino. Se distingue por su inestabilidad nuclear, ya que existe solo en formas radiactivas de vida corta. El más estable tiene una vida media de 21 minutos.',
+  'desc2': 'Debido a las pequeñas cantidades producidas y su corta vida media, actualmente no hay usos para el astato fuera de la investigación científica.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/87;https://www.lenntech.es/periodica/elementos/fr.htm'
 };
 
 Map ra = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Radio (Z = 88) en estado puro es de color blanco brillante cuando está recién preparado, pero se ennegrece con la exposición al aire, probablemente debido a la formación del nitruro. Presenta un comportamiento químico similar al bario.',
+  'desc2': 'Suele ser utilizado para fabricar pinturas autoluminosas para relojes, diales de instrumentos de aviones. Al mezclarlo con berilio emite neutrones por lo que es utilizado como fuente de estos. Además, es utilizado para producir radón, un gas radiactivo que se usa para tratar algunos tipos de cáncer.',
+  'bib': 'https://www.lenntech.es/periodica/elementos/ra.htm;https://pubchem.ncbi.nlm.nih.gov/element/88'
 };
 
 Map lr = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Laurencio (Z = 103) es un elemento que no se da en la naturaleza. Es tan inestable que cualquier cantidad formada se descompondría en otros elementos muy rápidamente.',
+  'desc2': 'Debido a las pequeñas cantidades producidas y su corta vida media, actualmente no hay usos para el astato fuera de la investigación científica.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/103;https://www.lenntech.es/periodica/elementos/lr.htm'
 };
 
 Map rf = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Rutherfordio (Z = 104) es un elemento que no se da en la naturaleza. Es tan inestable que cualquier cantidad formada se descompondría en otros elementos muy rápidamente.',
+  'desc2': 'Debido a las pequeñas cantidades producidas y su corta vida media, actualmente no hay usos para el astato fuera de la investigación científica.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/104;https://www.lenntech.es/periodica/elementos/rf.htm'
 };
 
 Map db = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Dubnio (Z = 105) es un elemento químico sintetizado por A. Ghiorso y colegas en Marzo de 1970. Tiene una vida media de 1.6 segundos y decae emitiendo particulas alfa.',
+  'desc2': 'Debido a las pequeñas cantidades producidas y su corta vida media, actualmente no hay usos para el astato fuera de la investigación científica.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/105;https://www.lenntech.es/periodica/elementos/db.htm'
 };
 
 Map sg = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Seaborgio (Z = 106) es un elemento químico sintetizado e identificado en 1974.',
+  'desc2': 'Debido a las pequeñas cantidades producidas y su corta vida media, actualmente no hay usos para el astato fuera de la investigación científica.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/106;https://www.lenntech.es/periodica/elementos/sg.htm'
 };
 
 Map bh = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Bohrio (Z = 107) elemento quimico sintetizado e identificado en 1981. Se espera que tenga propiedades similares al renio.',
+  'desc2': 'Debido a las pequeñas cantidades producidas y su corta vida media, actualmente no hay usos para el astato fuera de la investigación científica.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/107;https://www.lenntech.es/periodica/elementos/bh.htm'
 };
 
 Map hs = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Hassio (Z = 108) elemento quimicio sintetizado e identificado en 1984. Posee una vida media de 12 minutos aprox.',
+  'desc2': 'Debido a las pequeñas cantidades producidas y su corta vida media, actualmente no hay usos para el astato fuera de la investigación científica.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/108;https://www.lenntech.es/periodica/elementos/hs.htm'
 };
 
 Map mt = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Meitnerio (Z = 109) elemento quimico sintetizado e identificado en 1982. Posee una vida media de aprox 3.8 milisegundos. Se espera que tenga un comportamiento similar al iridio',
+  'desc2': 'Debido a las pequeñas cantidades producidas y su corta vida media, actualmente no hay usos para el meitnerio fuera de la investigación científica.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/109;https://www.lenntech.es/periodica/elementos/mt.htm'
 };
 
 Map ds = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Darmstatio (Z = 110).',
+  'desc2': 'Debido a las pequeñas cantidades producidas y su corta vida media, actualmente no hay usos para el darmstatio fuera de la investigación científica.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/110'
 };
 
 Map rg = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Roentgenio (Z = 111).',
+  'desc2': 'Debido a las pequeñas cantidades producidas y su corta vida media, actualmente no hay usos para el roentgenio fuera de la investigación científica.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/111'
 };
 
 Map cn = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Copernicio (Z = 112).',
+  'desc2': 'Debido a las pequeñas cantidades producidas y su corta vida media, actualmente no hay usos para el copernicio fuera de la investigación científica.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/112'
 };
 
 Map nh = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Nihonio (Z = 113).',
+  'desc2': 'Debido a las pequeñas cantidades producidas y su corta vida media, actualmente no hay usos para el nihonio fuera de la investigación científica.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/113'
 };
 
 Map fi = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Flerovio (Z = 114).',
+  'desc2': 'Debido a las pequeñas cantidades producidas y su corta vida media, actualmente no hay usos para el flevorio fuera de la investigación científica.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/114'
 };
 
 Map mc = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Moscovio (Z = 115).',
+  'desc2': 'Debido a las pequeñas cantidades producidas y su corta vida media, actualmente no hay usos para el moscovio fuera de la investigación científica.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/115'
 };
 
 Map lv = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Livermorio (Z = 116).',
+  'desc2': 'Debido a las pequeñas cantidades producidas y su corta vida media, actualmente no hay usos para el livermorio fuera de la investigación científica.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/116'
 };
 
 Map ts = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Teneso (Z = 117)',
+  'desc2': 'Debido a las pequeñas cantidades producidas y su corta vida media, actualmente no hay usos para el teneso fuera de la investigación científica.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/117'
 };
 
 Map og = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Oganesón (Z = 118).',
+  'desc2': 'Debido a las pequeñas cantidades producidas y su corta vida media, actualmente no hay usos para el oganesón fuera de la investigación científica.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/118'
 };
 
 Map la = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Lantano (Z = 57) es de color blanco plateado, maleable, dúctil y lo suficientemente suave para cortarlo con un cuchillo. Es un metal muy reactivo. Se oxida rapidamente cuando se expone al aire. El agua fría ataca al lantano lentamente, mientras que el agua caliente lo ataca mucho más rápido. Reacciona directamente con carbono elemental, nitrógeno, boro, selenio, silicio, fósforo, azufre y halógenos.',
+  'desc2': 'Se utiliza para fabricar luces de arco de carbono que se utilizan en la industria cinematográfica para iluminación de estudio y proyectores.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/57'
 };
 
 Map ce = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Cerio (Z = 58) es un metal brillante de color gris hierro. Es maleable y se oxida muy fácilmente a temperatura ambiente, especialmente en aire húmedo. A excepción del europio, es el más reactivo de los metales de tierras raras. ',
+  'desc2': 'Se encenderá si se raya con un objeto afilado, pero se puede utilizar de forma segura si se combina con otros elementos. Se suele utilizar para fabricar luces de arco de carbono que se utilizan en la industria cinematográfica para iluminación de estudio y proyectores.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/58;https://www.lenntech.es/periodica/elementos/ce.htm'
 };
 
 Map pr = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Praseodimio (Z = 59)  es blando, plateado, maleable y dúctil. Es algo más resistente a la corrosión en el aire que el europio, lantano, cerio o neodimio, pero desarrolla una capa de óxido verde que se cae cuando se expone al aire. Al igual que con otros metales de tierras raras, debe mantenerse bajo un aceite mineral ligero o sellado con plástico.',
+  'desc2': 'El uso principal del praseodimio es como agente de aleaciones con magnesio para crear metales de elevada dureza que son usados en motores de aviones. El praseodimio también compone el 5 % del metal de Misch, un material que es usado para hacer piedras de mecheros. El praseodimio forma el núcleo de las lámparas de arco voltaico de carbono que son usadas en la industria del cine para las luces de los estudios y de los proyectores. Las sales de praseodimio son usadas para dar color amarillo a los cristales y los esmaltes.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/59;https://www.lenntech.es/periodica/elementos/pr.htm'
 };
 
 Map nd = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Neodimio (Z = 60) es un metal que tiene un brillo metálico plateado brillante, el neodimio es uno de los metales de tierras raras más reactivos y se empaña rápidamente en el aire, formando un óxido que se desprende y expone el metal a la oxidación. El metal, por lo tanto, debe mantenerse bajo aceite mineral ligero o sellado con un material plástico.',
+  'desc2': 'El nedimio forma hasta un 18% del metal Misch, un material que es usado para hacer piedras de mecheros. El neodimio también es un componente del cristal didimio, que se usa para hacer ciertos tipos de gafas protectoras para soldadores y sopladores de vidrio. El neodimio se añade al cristal para eliminar el color verde provocado por los contaminantes de hierro. También puede ser añadido al cristal para crear coloraciones violeta, roja o gris. Algunos tipos de cristal que contienen neodimio son usados por astrónomos para calibrar aparatos llamados espectrómetros y otros tipos son usados para crear rubíes artificiales para láser.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/60;https://www.lenntech.es/periodica/elementos/nd.htm'
 };
 
 Map pm = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Prometio (Z = 61) Se produce artificialmente en los reactores nucleares, ya que es uno de los elementos que resulta de la fisión del uranio, torio y plutonio. Su isotopo más estable, Pm-145 tiene una vida media de 17.7 años.',
+  'desc2': 'Todos los isótopos conocidos son radiactivos. Se utiliza principalmente en la investigación con trazadores. Su principal aplicación la encontramos en la industria del fósforo. También se usa en la manufactura de calibradores de aberturas y en baterías nucleares empleadas en aplicaciones espaciales. El prometio podría ser usado para hacer una batería que funcione con energía nuclear.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/61;https://www.lenntech.es/periodica/elementos/pm.htm'
 };
 
 Map sm = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Samario (Z = 62) tiene un brillo plateado brillante y es estable en el aire.',
+  'desc2': 'El samario es uno de los elementos de tierras raras usados para hacer lámparas de arco voltaico de carbono las cuales son usadas en la industria del cine para la iluminación de los estudios y las luces de los proyectores. El samario también compone sobre el 1 % del metal Misch, un material que es usado para hacer piedras de mecheros.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/62;https://www.lenntech.es/periodica/elementos/sm.htm'
 };
 
 Map eu = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Europio (Z = 63) es tan duro como el plomo y dúctil. Es el más reactivo de los metales de las tierras raras y se oxida rápidamente en el aire. Se parece al calcio en su reacción con el agua. La bastnasita y la monacita son los principales minerales que contienen europio.',
+  'desc2': 'El europio es el mas reactivo de todos los elementos de tierras raras. No existen aplicaciones comerciales para el europio metálico, aunque ha sido usado para adulterar algunos tipos de plásticos para hacer lasers. Ya que es un buen absorbente de neutrones, el europio está siendo estudiado para ser usado en reactores nucleares.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/63;https://www.lenntech.es/periodica/elementos/eu.htm'
 };
 
 Map gd = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Gadolinio (Z = 64) al igual que con otros metales de tierras raras relacionados, el gadolinio es de color blanco plateado, tiene un brillo metálico, maleable y dúctil. El metal es relativamente estable en aire seco, pero se empaña en aire húmedo y forma una película de óxido poco adherida que se cae y expone más superficie a la oxidación. El gadolinio tiene la sección transversal de captura de neutrones térmicos más alta de cualquier elemento conocido.',
+  'desc2': 'El gadolinio tiene la mayor habilidad para capturar neutrones térmicos de todos los elementos conocidos y puede ser usado como barra de control para reactores nucleares. Desafortunadamente, los dos isótopos más idóneos para la captura electrónica, el gadolinio 155 y el gadolinio 157, están presentes en el gadolinio en pequeñas cantidades. Como resultado, las barras de control de gadolinio pierden su efectividad con rapidez. Los compuestos de gadolinio son usados para hacer fósforos para las televisiones en color.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/64;https://www.lenntech.es/periodica/elementos/gd.htm'
 };
 
 Map tb = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Terbio (Z = 65)  Es un metal gris plateado, maleable, dúctil y lo suficientemente suave como para cortarlo con un cuchillo.',
+  'desc2': 'Junto al dióxido de zirconio se utiliza como estabilizador de cristales en pilas de combustible que funcionan a altas temperaturas. La Terbia es el mineral en donde se puede encontrar óxido de terbio. La Terbia se puede utilizar potencialmente como activador de fósforos verdes en tubos de televisión.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/65;https://www.lenntech.es/periodica/elementos/tb.htm'
 };
 
 Map dy = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Disprosio (Z = 66) tiene un brillo plateado brillante metálico. Es relativamente estable en el aire a temperatura ambiente, y los ácidos minerales diluidos y concentrados lo atacan y disuelven fácilmente para producir hidrógeno. El metal es lo suficientemente suave como para cortarlo con un cuchillo y se puede mecanizar sin chispas si se evita el sobrecalentamiento. ',
+  'desc2': 'No existen aplicaciones comerciales para el disprosio. Dado que absorbe fácilmente neutrones y tiene un alto punto de fusión, el disprosio podría alearse con acero para su uso en reactores nucleares. Cuando se combina con vanadio y otros elementos de tierras raras, el disprosio se utiliza como material láser.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/66;https://www.lenntech.es/periodica/elementos/dy.htm'
 };
 
 Map ho = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': ' Holmio (Z = 67) en su puro tiene un brillo metálico a plateado brillante. Es relativamente suave y maleable y es estable en aire seco a temperatura ambiente, pero se oxida rápidamente en aire húmedo y a temperaturas elevadas. El metal tiene propiedades magnéticas inusuales. Todavía se han encontrado pocos usos para el elemento. El elemento, al igual que con otras tierras raras, parece tener una clasificación de toxicidad aguda baja.',
+  'desc2': 'El holmio no tiene aplicaciones comerciales, aunque tiene propiedades magnéticas inusuales que podrían ser aprovechadas en el futuro.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/67;https://www.lenntech.es/periodica/elementos/ho.htm'
 };
 
 Map er = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Erbio (Z = 68) en su estado puro es suave y maleable y tiene un brillo metálico plateado brillante. Como ocurre con otros metales de tierras raras, sus propiedades dependen en cierta medida de las impurezas presentes. El metal es bastante estable en el aire y no se oxida tan rápidamente como algunos de los otros metales de tierras raras. El erbio natural es una mezcla de seis isótopos, todos los cuales son estables.',
+  'desc2': 'El erbio se alea con vanadio para hacerlo más suave y más fácil de moldear. El erbio se agrega a los cables de fibra óptica como agente dopante donde se usa como amplificador de señal. El erbio también tiene algunos usos en la industria de la energía nuclear.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/68;https://www.lenntech.es/periodica/elementos/er.htm'
 };
 
 Map tm = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Tulio (Z = 69) es de color gris plateado, suave, maleable y dúctil, y se puede cortar con un cuchillo. Se puede aislar por reducción del óxido con lantano metálico o por reducción de calcio en un recipiente cerrado. El tulio es el menos abundante de los elementos de tierras raras naturales.',
+  'desc2': 'Actualmente no tiene aplicaciones comerciales, aunque uno de sus isótopos, el tulio-169, podría usarse como fuente de radiación para máquinas portátiles de rayos X.El tulio no forma compuestos comercialmente importantes.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/68;https://www.lenntech.es/periodica/elementos/tm.htm'
 };
 
 Map yb = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Iterbio (Z = 70) tiene un brillo plateado brillante, es suave, maleable y bastante dúctil. Aunque el elemento es bastante estable, debe guardarse en recipientes cerrados para protegerlo del aire y la humedad. El iterbio es fácilmente atacado y disuelto por ácidos minerales diluidos y concentrados y reacciona lentamente con el agua.',
+  'desc2': 'El iterbio tiene pocos usos. Puede alearse con acero inoxidable para mejorar algunas de sus propiedades mecánicas y usarse como agente dopante en cables de fibra óptica donde puede usarse como amplificador. Uno de los isótopos del iterbio se considera una fuente de radiación para las máquinas de rayos X portátiles.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/70;https://www.lenntech.es/periodica/elementos/yb.htm'
 };
 
 Map ac = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Actinio (Z = 89) su comportamiento es similar al de las tierras raras, particularmente el lantano. El actinio purificado se equilibra con sus productos de descomposición al final de los 185 días y luego se descompone de acuerdo con su vida media de 21,6 años. Es unas 150 veces más activo que el radio, lo que lo hace valioso en la producción de neutrones.',
+  'desc2': 'El actinio no tiene aplicaciones comerciales significativas, aunque se utiliza en la producción de neutrones.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/89;https://www.lenntech.es/periodica/elementos/ac.htm'
 };
 
 Map th = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Torio (Z = 90) Cuando está puro es un metal blanco plateado que es estable al aire y conserva su brillo durante varios meses. Cuando se contamina con el óxido, el torio se empaña lentamente en el aire, se vuelve gris y finalmente negro. Las propiedades físicas del torio están muy influenciadas por el grado de contaminación con el óxido. ',
+  'desc2': 'El torio se utiliza como agente de aleación para mejorar la resistencia del magnesio a altas temperaturas. El torio también se usa para recubrir los filamentos de tungsteno que se usan en dispositivos electrónicos, como en los televisores.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/90;https://www.lenntech.es/periodica/elementos/th.htm'
 };
 
 Map pa = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Proactinio (Z = 91) en su estado metálico es un material denso de color gris plateado con un brillo metálico brillante que retiene durante algún tiempo en el aire, pero reacciona fácilmente con el oxígeno, el vapor de agua y los ácidos inorgánicos para formar varios compuestos.',
+  'desc2': 'Debido a su escasez, alta radiactividad y toxicidad, actualmente no hay usos para el protactinio fuera de la investigación científica.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/91;https://www.lenntech.es/periodica/elementos/pa.htm'
 };
 
 Map u = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Uranio (Z = 92) en su estado más puro es un metal blanco plateado, débilmente radiactivo, que es más duro que la mayoría de los elementos. Es maleable, dúctil, ligeramente paramagnético, fuertemente electropositivo y es un mal conductor eléctrico. El uranio metálico tiene una densidad muy alta, siendo aproximadamente un 70% más denso que el plomo, pero ligeramente menos denso que el oro.',
+  'desc2': 'Dado que es naturalmente radiactivo, el uranio, generalmente en forma de dióxido de uranio, se utiliza con mayor frecuencia en la industria de la energía nuclear para generar electricidad. El uranio natural consta de tres isótopos: uranio-234, uranio-235 y uranio-238. Aunque los tres isótopos son radiactivos, solo el uranio-235 es un material fisionable que se puede utilizar para la energía nuclear.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/92;https://www.lenntech.es/periodica/elementos/u.htm'
 };
 
 Map np = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Neptunio (Z = 93) en su estado metálico es dúctil, con bajo punto de fusión (637ºC), y en su forma alfa es de alta densidad, 20.45 g/cm3 (11.82oz/in3). Puede decirse que la química del neptunio es intermedia entre la del uranio y la del plutonio. El neptunio metálico es reactivo y forma muchos compuestos binarios; por ejemplo, con hidrógeno, carbono, nitrógeno, fósforo, oxígeno, azufre y los halógenos.',
+  'desc2': 'El neptunio-237, que se produce en cantidades de gramos como subproducto de la producción de plutonio en reactores nucleares, se utiliza en detectores de neutrones.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/93;https://www.lenntech.es/periodica/elementos/np.htm'
 };
 
 Map pu = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Plutonio (Z = 94) es único entre los elementos dada sus complejidades fisicoquímicas en virtud de su posición en una ubicación de transición en la tabla periódica. tiene un aspecto plateado brillante al principio y adquiere un deslustre gris apagado, amarillo o verde oliva cuando se oxida en el aire. Una pieza relativamente grande de plutonio está caliente al tacto debido a la energía emitida por la desintegración alfa. Los trozos más grandes producirán suficiente calor para hervir el agua. El metal se disuelve fácilmente en ácidos minerales concentrados. Es tan duro y quebradizo como el hierro fundido, a menos que esté aleado con otros metales. A diferencia de la mayoría de los metales, no es un buen conductor de calor o electricidad. Tiene un punto de fusión bajo (640 ° C) y un punto de ebullición inusualmente alto (3228 ° C).',
+  'desc2': 'El plutonio-238 se utiliza en generadores termoeléctricos de radioisótopos para proporcionar electricidad a las sondas espaciales que se aventuran demasiado lejos del sol para utilizar la energía solar, como las sondas Cassini y Galileo. El plutonio-239 sufrirá una reacción en cadena de fisión si se concentra una cantidad suficiente en un solo lugar, por lo que se utiliza en el corazón de las armas nucleares modernas y en algunos reactores nucleares.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/94;https://www.lenntech.es/periodica/elementos/pu.htm'
 };
 
 Map am = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Americio (Z = 95) su brillo en estado metálico recién preparado es blanco y más plateado que el plutonio o el neptunio preparados de la misma manera. Parece ser más maleable que el uranio o el neptunio y se empaña lentamente en aire seco a temperatura ambiente. Se da en la naturaleza en niveles muy bajos. Puede ser añadido durante un escape accidental en las plantas de producción nuclear.',
+  'desc2': 'Se utiliza en detectores de humo y se puede utilizar como fuente portátil de rayos gamma.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/95;https://www.lenntech.es/periodica/elementos/am.htm'
 };
 
 Map cm = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Curio (Z = 96) en su estado metálico es brillante, maleable, de color plateado, químicamente reactivo y es más electropositivo que el aluminio. Es probable que existan pequeñas cantidades de curio en depósitos naturales de uranio, como resultado de una secuencia de capturas de neutrones y desintegraciones beta sostenidas por el muy bajo flujo de neutrones presentes naturalmente en los minerales de uranio. Sin embargo, nunca se ha detectado la presencia de curio natural.',
+  'desc2': 'Dado que solo se han producido cantidades de miligramos de curio, actualmente no hay aplicaciones comerciales para él, aunque podría usarse en generadores termoeléctricos de radioisótopos en el futuro.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/96;https://www.lenntech.es/periodica/elementos/cm.htm'
 };
 
 Map bk = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Berquelio (Z = 97) no se encuentra en la corteza terrestre por no tener isótopos estables. Debe prepararse por reacciones nucleares usando elementos blancos más abundantes. Estas reacciones incluyen bombardeo con partículas cargadas, irradiación con neutrones de reactores de alto flujo o producción en un dispositivo termonuclear. El berkelio metálico es químicamente reactivo, existe en dos formas cristalinas y se funde a 986ºC.',
+  'desc2': 'Sin información',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/97;https://www.lenntech.es/periodica/elementos/bk.htm'
 };
 
 Map cf = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Californio (Z = 98). Su descubrimiento y producción se basa en la transmutación nuclear artificial de isótopos radiactivos de elementos más ligeros. Todos los isótopos del californio son radiactivos, con intervalo de vidas medias entre un minuto y unos 1000 años. Por su inestabilidad nuclear el californio no existe en la corteza terrestre.',
+  'desc2': 'El isótopo californio-252 se utiliza como fuente de neutrones para identificar minerales de oro y plata mediante una técnica conocida como activiación de neutrones. También se está utilizando en dispositivos conocidos como medidores de humedad de neutrones que se utilizan para encontrar capas de agua y aceite en los pozos de petróleo.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/98;https://www.lenntech.es/periodica/elementos/cf.htm'
 };
 
 Map es = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Einstenio (Z = 99) no se encuentra en la naturaleza, sino que se obtiene de manera artificial por transmutación nuclear de elementos más ligeros. Todos los isótopos del einstenio son radiactivos, con vida media que abarca de unos pocos segundos hasta cerca de un año.',
+  'desc2': 'Debido a las pequeñas cantidades producidas y su corta vida media, actualmente no hay usos para el einstenio fuera de la investigación científica.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/99;https://www.lenntech.es/periodica/elementos/es.htm'
 };
 
 Map fm = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Fermio (Z = 100) no se encuentra en la naturaleza; su descubrimiento y producción se alcanza por transmutación nuclear artificial de elementos más ligeros.',
+  'desc2': 'Debido a las pequeñas cantidades producidas y su corta vida media, actualmente no hay usos para el fermio fuera de la investigación científica.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/100;https://www.lenntech.es/periodica/elementos/fm.htm'
 };
 
 Map md = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Mendelevio (Z = 101) no se encuentra en la naturaleza; fue descubierto y se prepara por transmutación nuclear artificial de un elemento más ligero.',
+  'desc2': 'Debido a las pequeñas cantidades producidas y su corta vida media, actualmente no hay usos para el mendelevio fuera de la investigación científica.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/101;https://www.lenntech.es/periodica/elementos/md.htm'
 };
 
 Map no = {
-  'desc1': '',
-  'desc2': '',
-  'desc3': '',
-  'bib': ''
+  'desc1': 'Nobelio (Z = 102) elemento sintético producido en el laboratorio. Su decaimiento se realiza por emisión de partículas alfa, es decir, un ion de helio doblemente cargado.',
+  'desc2': 'Debido a las pequeñas cantidades producidas y su corta vida media, actualmente no hay usos para el nobelio fuera de la investigación científica.',
+  'bib': 'https://pubchem.ncbi.nlm.nih.gov/element/102;https://www.lenntech.es/periodica/elementos/no.htm'
 };
