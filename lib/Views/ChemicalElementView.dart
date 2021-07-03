@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:mendeleev/Components/Characteristic.dart';
 import 'package:mendeleev/Components/Properties.dart';
-import 'package:mendeleev/Models/ChemicalElement.dart';
+import 'package:mendeleev/DB/ChemicalElement.dart';
 import 'package:mendeleev/Utils/Colors.dart';
 
 class ChemicalElementView extends StatefulWidget {

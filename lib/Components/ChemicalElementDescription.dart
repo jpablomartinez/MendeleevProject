@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mendeleev/Models/ChemicalElement.dart';
+import 'package:mendeleev/DB/ChemicalElement.dart';
 import 'package:mendeleev/Utils/GlobalFunctions.dart';
 import '../Utils/Colors.dart';
 
@@ -15,7 +15,7 @@ class ChemicalElementDescription extends StatelessWidget {
   @override
   Widget build(BuildContext context){
     return GestureDetector(
-      onTap: () => Navigator.pushNamed(context, '/description', arguments: <String, ChemicalElement> {'ch':element}),
+      onTap: () {}, //Navigator.pushNamed(context, '/description', arguments: <String, ChemicalElement> {'ch':element}),
       child: Container(
         width: 110,
         height: 110,
@@ -79,7 +79,7 @@ class ChemicalElementDescription extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: <Widget>[
                   Text('${element.density}', style: TextStyle(color: QColors.PRIMARY_TEXT, fontSize: 8)),
-                  Text('${element.atomicVolume}', style: TextStyle(color: QColors.PRIMARY_TEXT, fontSize: 8)),
+                  Text('${element.atomicVol}', style: TextStyle(color: QColors.PRIMARY_TEXT, fontSize: 8)),
                 ],
               ),
             ),

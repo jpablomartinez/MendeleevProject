@@ -15,6 +15,7 @@ class QColors {
   static const METALLOID = Color(0xffcb2626);
   static const SELECTED_ITEM = Color(0xffB06B19);
   static const NO_METALLIC = Color(0xffff7501);
+  static const SELECTED = Color(0xffa5541b);
 
 
 

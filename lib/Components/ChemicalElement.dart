@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mendeleev/Utils/GlobalFunctions.dart';
 import '../Utils/Colors.dart';
 
+
 class ChemicalElementWidget extends StatelessWidget {
 
   final String symbol;
@@ -9,8 +10,9 @@ class ChemicalElementWidget extends StatelessWidget {
   final int category;
   final int index;
   final Function tapFunction;
+  final bool selected;
 
-  ChemicalElementWidget({@required this.symbol, @required this.atomicNumber, @required this.category, @required this.index ,@required this.tapFunction});
+  ChemicalElementWidget({@required this.symbol, @required this.atomicNumber, @required this.category, @required this.index ,@required this.tapFunction, @required this.selected});
 
   @override
   Widget build(BuildContext context){
@@ -33,7 +35,8 @@ class ChemicalElementWidget extends StatelessWidget {
                   blurRadius: 1.0,
                   spreadRadius: 1.0,
                 )
-              ]
+              ],
+              border: Border.all(color: selected ? QColors.SELECTED : Colors.transparent, width: 0.5 )
           ),
           child: Column(
             children: <Widget>[
