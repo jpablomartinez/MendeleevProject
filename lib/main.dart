@@ -19,7 +19,9 @@ void main() async {
   final descriptionBox = await Hive.openBox('description');
   final prefs = await SharedPreferences.getInstance();
   bool installed = prefs.getBool('installed') ?? false;
+  print('installed');
   if(!installed) {
+    print('not installed');
     final _elementsBox = Hive.box('elements');
     final _descriptionBox = Hive.box('description');
     periodicTableElements.forEach((element) {

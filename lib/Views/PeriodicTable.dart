@@ -121,31 +121,57 @@ class _PeriodicTable extends State<PeriodicTable> with SingleTickerProviderState
                   children: [
                     Container(
                       height: 150,
-                      //logo
+                      width: 90,
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          SizedBox(height: 15),
+                          Text('V', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 60)),
+                          Text('Veel', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 20)),
+                        ],
+                      )
                     ),
+                    Align(
+                      alignment: Alignment.bottomCenter,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Padding(
+                            padding: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                            child: Align(
+                              alignment: Alignment.bottomRight,
+                              child: Text('by menestrello', style: TextStyle(color: QColors.PRIMARY_TEXT, fontSize: 11, fontWeight: FontWeight.w300)),
+                            ),
+                          ),
+                          Padding(
+                            padding: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                            child: Align(
+                              alignment: Alignment.bottomRight,
+                              child: Text('V 0.1', style: TextStyle(color: QColors.PRIMARY_TEXT, fontSize: 11, fontWeight: FontWeight.w300)),
+                            ),
+                          )
+                        ],
+                      ),
+                    )
                   ],
                 ),
                 Divider(color: QColors.PRIMARY_TEXT, height: 2, indent: 30, endIndent: 30),
                 SizedBox(height: 20),
                 OwnListTile(
                     title: 'Tabla Periódica',
-                    onPressFunction: (){}
+                    onPressFunction: (){},
+                    icon: Icons.auto_awesome_mosaic,
                 ),
                 OwnListTile(
                     title: 'Calculadora',
-                    onPressFunction: (){}
+                    onPressFunction: (){},
+                    icon: Icons.calculate
                 ),
                 OwnListTile(
-                    title: 'Sugerencias o Error',
-                    onPressFunction: (){}
+                    title: 'Reportar sugerencias o error',
+                    onPressFunction: (){},
+                    icon: Icons.announcement
                 ),
-                Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-                  child: Align(
-                    alignment: Alignment.bottomRight,
-                    child: Text('V 0.1', style: TextStyle(color: QColors.PRIMARY_TEXT, fontSize: 12, fontWeight: FontWeight.w300)),
-                  ),
-                )
               ],
             ),
           )
