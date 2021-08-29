@@ -5,7 +5,7 @@ part 'description.g.dart';
 @HiveType(typeId: 1)
 class Description extends HiveObject{
   @HiveField(0)
-  final String atomicNumber;
+  final int atomicNumber;
   @HiveField(1)
   final String history;
   @HiveField(2)
@@ -24,9 +24,9 @@ class Description extends HiveObject{
 
   factory Description.fromJson(Map<dynamic, dynamic> obj){
     return Description(
-        atomicNumber: obj['atomicNumber'],
-        history: obj['history'],
-        uses: obj['uses'],
+        atomicNumber: obj['z'],
+        history: obj['desc1'],
+        uses: obj['desc2'],
         bib: obj['bib']
     );
   }

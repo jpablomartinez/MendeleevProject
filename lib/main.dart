@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:mendeleev/DB/description.dart';
 import 'package:mendeleev/DB/ChemicalElement.dart';
+import 'package:mendeleev/Observer.dart';
+import 'package:mendeleev/ObserverController.dart';
 import 'package:mendeleev/Utils/Router.dart';
 import 'package:mendeleev/Utils/data.dart';
 import 'package:mendeleev/Utils/elements.dart';
@@ -32,6 +34,7 @@ void main() async {
     });
     prefs.setBool('installed', true);
   }
+  init();
   return runApp(MendeleevPeriodicTable());
 }
 

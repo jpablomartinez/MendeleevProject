@@ -6,8 +6,8 @@ import 'package:mendeleev/Components/ChemicalElementDescription.dart';
 import 'package:mendeleev/Components/ColorInfo.dart';
 import 'package:mendeleev/Components/OwnTileList.dart';
 import 'package:mendeleev/DB/ChemicalElement.dart';
-import '../Components/ChemicalElement.dart';
-import '../Utils/Colors.dart';
+import 'package:mendeleev/ObserverController.dart';
+import 'package:mendeleev/Utils/Colors.dart';
 
 class PeriodicTable extends StatefulWidget{
 
@@ -35,6 +35,8 @@ class _PeriodicTable extends State<PeriodicTable> with SingleTickerProviderState
     });
     ChemicalElement e = periodicTableElementsBD[0];
     selectedElement = ChemicalElementDescription(element: e);
+    observer.z = e.atomicNumber;
+    observer.element = e;
     animationController.forward();
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.landscapeLeft,
@@ -68,6 +70,8 @@ class _PeriodicTable extends State<PeriodicTable> with SingleTickerProviderState
   void selectElement(int pos){
     ChemicalElement e = periodicTableElementsBD[pos];
     itemSelected = e.atomicNumber;
+    observer.z = itemSelected;
+    observer.element = e;
     setState(() {
       selectedElement = ChemicalElementDescription(element: e);
     });
@@ -79,9 +83,6 @@ class _PeriodicTable extends State<PeriodicTable> with SingleTickerProviderState
     animation = CurvedAnimation(parent: animationController, curve: Curves.easeIn);
     configApp = prepareApp();
     super.initState();
-    /*/SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeLeft,
-    ]);*/
   }
 
   @override
@@ -164,7 +165,7 @@ class _PeriodicTable extends State<PeriodicTable> with SingleTickerProviderState
                 ),
                 OwnListTile(
                     title: 'Calculadora',
-                    onPressFunction: (){},
+                    onPressFunction: ()=> Navigator.pushNamed(context, '/calculator'),
                     icon: Icons.calculate
                 ),
                 OwnListTile(
@@ -221,7 +222,9 @@ class _PeriodicTable extends State<PeriodicTable> with SingleTickerProviderState
                                 top: 20,
                                 right: 10,
                                 child: GestureDetector(
-                                  onTap: (){},
+                                  onTap: (){
+                                    Navigator.pushNamed(context, '/description', arguments: {'z': itemSelected});
+                                  },
                                   child: Row(
                                     children: [
                                       Icon(Icons.remove_red_eye, color: QColors.OTHER_TEXT, size: 20),
