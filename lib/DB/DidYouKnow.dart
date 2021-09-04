@@ -6,7 +6,7 @@ part 'DidYouKnow.g.dart';
 class DidYouKnow extends HiveObject{
 
   @HiveField(0)
-  final int amount;
+  int amount;
   @HiveField(1)
   final String text;
 

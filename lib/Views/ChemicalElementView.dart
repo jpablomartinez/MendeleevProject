@@ -55,7 +55,7 @@ class _ChemicalElementView extends State<ChemicalElementView> with SingleTickerP
     return Scaffold(
       backgroundColor: QColors.BACKGROUND_COLOR,
       appBar: AppBar(
-        title: Text('Descripción', style: TextStyle(color: QColors.OTHER_TEXT, fontSize: 20)), //Text('${element.name} (${element.symbol})', style: TextStyle(color: QColors.OTHER_TEXT, fontSize: 20)),
+        title: Text('Descripción', style: TextStyle(color: QColors.OTHER_TEXT, fontSize: 20)),
         centerTitle: true,
         elevation: 1,
         backgroundColor: QColors.PRIMARY_COLOR,
@@ -129,8 +129,6 @@ class _ChemicalElementView extends State<ChemicalElementView> with SingleTickerP
                   Text('Propiedades', style: TextStyle(color: QColors.OTHER_TEXT, fontStyle: FontStyle.italic, fontSize: 16, decoration: TextDecoration.underline)),
                   SizedBox(height: 10),
                   Properties(element: observer.element),
-
-                  
                 ],
               )
               );

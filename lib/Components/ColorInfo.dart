@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:mendeleev/Utils/Colors.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:mendeleev/Utils/Styles.dart';
 
 class ColorInfo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 190,
+      width: 200,
       height: 110,
       padding: EdgeInsets.all(5.0),
       child: Row(
@@ -26,7 +28,7 @@ class ColorInfo extends StatelessWidget {
                           color: QColors.METALLIC
                       ),
                     ),
-                    Text('Metálicos', style: TextStyle(color: QColors.SECONDARY_TEXT, fontSize: 10))
+                    Text('Metálicos', style: infoStyle)
                   ],
                 ),
               ),
@@ -42,7 +44,7 @@ class ColorInfo extends StatelessWidget {
                       ),
                       margin: EdgeInsets.all(5),
                     ),
-                    Text('No Metálicos', style: TextStyle(color: QColors.SECONDARY_TEXT, fontSize: 10))
+                    Text('No Metálicos', style: infoStyle)
                   ],
                 ),
               ),
@@ -59,7 +61,7 @@ class ColorInfo extends StatelessWidget {
                       ),
                       margin: EdgeInsets.all(5),
                     ),
-                    Container(child:Text('Lantánidos', style: TextStyle(color: QColors.SECONDARY_TEXT, fontSize: 10)))
+                    Container(child:Text('Lantánidos', style: infoStyle))
                   ],
                 ),
               ),
@@ -76,7 +78,7 @@ class ColorInfo extends StatelessWidget {
                       ),
                       margin: EdgeInsets.all(5),
                     ),
-                    Text('Actínidos', style: TextStyle(color: QColors.SECONDARY_TEXT, fontSize: 10))
+                    Text('Actínidos', style: infoStyle)
                   ],
                 ),
               ),
@@ -99,7 +101,7 @@ class ColorInfo extends StatelessWidget {
                       ),
                       margin: EdgeInsets.all(5),
                     ),
-                    Text('Metaloide', style: TextStyle(color: QColors.SECONDARY_TEXT, fontSize: 10))
+                    Text('Metaloide', style: infoStyle)
                   ],
                 ),
               ),
@@ -116,7 +118,7 @@ class ColorInfo extends StatelessWidget {
                       ),
                       margin: EdgeInsets.all(5),
                     ),
-                    Text('Halógenos', style: TextStyle(color: QColors.SECONDARY_TEXT, fontSize: 10))
+                    Text('Halógenos', style: infoStyle)
                   ],
                 ),
               ),
@@ -133,7 +135,7 @@ class ColorInfo extends StatelessWidget {
                       ),
                       margin: EdgeInsets.all(5),
                     ),
-                    Text('Gases nobles', style: TextStyle(color: QColors.SECONDARY_TEXT, fontSize: 10))
+                    Text('Gases nobles', style: infoStyle)
                   ],
                 ),
               ),

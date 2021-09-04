@@ -18,9 +18,7 @@ class ChemicalElementWidget extends StatelessWidget {
   Widget build(BuildContext context){
 
     return GestureDetector(
-      onTap: (){
-        this.tapFunction(this.index);
-      },
+      onTap: () => this.tapFunction(this.index),
       child:
         Container(
           height: 32,
@@ -30,10 +28,10 @@ class ChemicalElementWidget extends StatelessWidget {
               color: QColors.PRIMARY_COLOR,
               boxShadow: [
                 BoxShadow(
-                  color: Color.fromRGBO(0, 0, 0, .30),
+                  color: Colors.black.withOpacity(0.3),
                   offset: Offset(0,1),
-                  blurRadius: 1.0,
-                  spreadRadius: 1.0,
+                  blurRadius: 1,
+                  spreadRadius: 1,
                 )
               ],
               border: Border.all(color: selected ? QColors.SELECTED : Colors.transparent, width: 0.5 )
@@ -59,7 +57,7 @@ class ChemicalElementWidget extends StatelessWidget {
               ),
               Container(
                 padding: EdgeInsets.all(2),
-                child: Text(this.symbol, style: TextStyle(color: QColors.PRIMARY_TEXT, fontSize: 12)),
+                child: Text(this.symbol, style: TextStyle(color: QColors.PRIMARY_TEXT, fontSize: 12, fontFamily: 'Roboto')),
               )
             ],
           ),

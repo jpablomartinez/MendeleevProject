@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:hive/hive.dart';
 import 'package:mendeleev/Components/DigitContainer.dart';
+import 'package:mendeleev/DB/DidYouKnow.dart';
 import 'package:mendeleev/Utils/Colors.dart';
+import 'dart:math' as math;
 
 class Calculator extends StatefulWidget{
 
@@ -20,6 +23,7 @@ class _Calculator extends State<Calculator>{
   String temperatureObjective = 'kelvin';
   var temperature = 'celcius';
   List<String> units = ['celcius', 'kelvin', 'fahrenheit'];
+  String didYouKnow = '';
 
   double celciusToKelvin () => double.parse(firstField.text) + 273.15;
   double kelvinToCelcius () => double.parse(firstField.text) - 273.15;
@@ -49,12 +53,26 @@ class _Calculator extends State<Calculator>{
     else return 'Fahrenheit (°F)';
   }
 
+  void getDidYouKnowText() {
+    final dynBox = Hive.box('DidYouKnow');
+    DateTime now = DateTime.now();
+    math.Random r = math.Random(now.millisecondsSinceEpoch);
+    if(dynBox.isNotEmpty){
+      int i = r.nextInt(dynBox.length - 1);
+      DidYouKnow d = dynBox.getAt(i);
+      d.amount = d.amount + 1;
+      didYouKnow = d.text;
+      dynBox.putAt(i, d);
+    }
+  }
+
   @override
   void initState(){
     super.initState();
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.portraitUp,
     ]);
+    getDidYouKnowText();
   }
 
   @override
@@ -438,18 +456,19 @@ class _Calculator extends State<Calculator>{
                     )
                   ]
               ),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                crossAxisAlignment: CrossAxisAlignment.start,
+              child: ListView(
                 children: [
-                  Text('¿Sabias qué?', style: TextStyle(color: QColors.PRIMARY_TEXT, fontSize: 12)),
-                  Text('Lorem ipsum dolor sit amet, consectetur adipiscing'
-                    'elit, sed do eiusmod tempor incididunt ut labore et'
-                    'dolore magna aliqua. Ut enim ad minim veniam,'
-                    'quis nostrud exercitation ullamco laboris nisi ',
-                      style: TextStyle(color: QColors.PRIMARY_TEXT, fontSize: 12))
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text('¿Sabias qué?', style: TextStyle(color: QColors.PRIMARY_TEXT, fontSize: 12)),
+                      SizedBox(height: 10),
+                      Text(didYouKnow, style: TextStyle(color: QColors.PRIMARY_TEXT, fontSize: 12))
+                    ],
+                  )
                 ],
-              ),
+              )
             )
           ],
         ),

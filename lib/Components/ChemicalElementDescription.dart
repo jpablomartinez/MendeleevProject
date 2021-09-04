@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mendeleev/DB/ChemicalElement.dart';
+import 'package:mendeleev/Utils/Colors.dart';
 import 'package:mendeleev/Utils/GlobalFunctions.dart';
-import '../Utils/Colors.dart';
-
+import 'package:google_fonts/google_fonts.dart';
 
 class ChemicalElementDescription extends StatelessWidget {
 
@@ -23,7 +23,7 @@ class ChemicalElementDescription extends StatelessWidget {
             color: QColors.PRIMARY_COLOR,
             boxShadow: [
               BoxShadow(
-                  color: Color.fromRGBO(0, 0, 0, .3),
+                  color: Colors.black.withOpacity(0.3),
                   offset: Offset(0,1),
                   blurRadius: 1,
                   spreadRadius: 1

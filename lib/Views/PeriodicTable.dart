@@ -8,6 +8,7 @@ import 'package:mendeleev/Components/OwnTileList.dart';
 import 'package:mendeleev/DB/ChemicalElement.dart';
 import 'package:mendeleev/ObserverController.dart';
 import 'package:mendeleev/Utils/Colors.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class PeriodicTable extends StatefulWidget{
 
@@ -127,8 +128,9 @@ class _PeriodicTable extends State<PeriodicTable> with SingleTickerProviderState
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           SizedBox(height: 15),
-                          Text('V', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 60)),
-                          Text('Veel', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 20)),
+                          Image.asset('assets/images/icon.png', height: 80, color: QColors.PRIMARY_TEXT),
+                          SizedBox(height: 5),
+                          Text('Sylhue', style: GoogleFonts.nunito(color: QColors.PRIMARY_TEXT, fontWeight: FontWeight.bold, fontSize: 20))
                         ],
                       )
                     ),
@@ -141,7 +143,7 @@ class _PeriodicTable extends State<PeriodicTable> with SingleTickerProviderState
                             padding: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
                             child: Align(
                               alignment: Alignment.bottomRight,
-                              child: Text('by menestrello', style: TextStyle(color: QColors.PRIMARY_TEXT, fontSize: 11, fontWeight: FontWeight.w300)),
+                              child: Text('by menestrello', style: TextStyle(color: QColors.PRIMARY_TEXT, fontSize: 12, fontWeight: FontWeight.w300)),
                             ),
                           ),
                           Padding(
