@@ -23,7 +23,7 @@ class ChemicalElementDescription extends StatelessWidget {
             color: QColors.PRIMARY_COLOR,
             boxShadow: [
               BoxShadow(
-                  color: Colors.black.withOpacity(0.3),
+                  color: Colors.black.withOpacity(0.15),
                   offset: Offset(0,1),
                   blurRadius: 1,
                   spreadRadius: 1

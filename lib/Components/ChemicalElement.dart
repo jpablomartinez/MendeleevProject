@@ -11,8 +11,17 @@ class ChemicalElementWidget extends StatelessWidget {
   final int index;
   final Function tapFunction;
   final bool selected;
+  final Size size;
 
-  ChemicalElementWidget({@required this.symbol, @required this.atomicNumber, @required this.category, @required this.index ,@required this.tapFunction, @required this.selected});
+  ChemicalElementWidget({
+    @required this.symbol,
+    @required this.atomicNumber,
+    @required this.category,
+    @required this.index,
+    @required this.tapFunction,
+    @required this.selected,
+    @required this.size
+  });
 
   @override
   Widget build(BuildContext context){
@@ -21,14 +30,14 @@ class ChemicalElementWidget extends StatelessWidget {
       onTap: () => this.tapFunction(this.index),
       child:
         Container(
-          height: 32,
-          width: 32,
+          height: size.height,
+          width: size.width,
           margin: EdgeInsets.all(1),
           decoration: BoxDecoration(
               color: QColors.PRIMARY_COLOR,
               boxShadow: [
                 BoxShadow(
-                  color: Colors.black.withOpacity(0.3),
+                  color: Colors.black.withOpacity(0.2),
                   offset: Offset(0,1),
                   blurRadius: 1,
                   spreadRadius: 1,

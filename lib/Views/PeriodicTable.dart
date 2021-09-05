@@ -1,3 +1,4 @@
+import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hive/hive.dart';
@@ -21,7 +22,10 @@ class _PeriodicTable extends State<PeriodicTable> with SingleTickerProviderState
   double baseWidth = 0;
   double baseHeight = 0;
   bool firstRender = false;
-  int itemSelected = 0;
+  int itemSelected = 1;
+  Size elementSize = Size(1,1);
+  double spaceP23 = 1;
+  double spacePL = 1;
   Widget selectedElement = Container();
   Future configApp;
   List<ChemicalElement> periodicTableElementsBD = [];
@@ -29,15 +33,23 @@ class _PeriodicTable extends State<PeriodicTable> with SingleTickerProviderState
   Animation animation;
   final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
 
+  int getInitialRandomElement(int l){
+    DateTime now = DateTime.now();
+    math.Random random = math.Random(now.millisecondsSinceEpoch);
+    return random.nextInt(l);
+  }
+
   Future<bool> prepareApp() async {
     final elementsBox = Hive.box('elements');
     elementsBox.values.forEach((element) {
       periodicTableElementsBD.add(element);
     });
-    ChemicalElement e = periodicTableElementsBD[0];
+    int randomElement = getInitialRandomElement(elementsBox.length - 1);
+    ChemicalElement e = periodicTableElementsBD[randomElement];
     selectedElement = ChemicalElementDescription(element: e);
     observer.z = e.atomicNumber;
     observer.element = e;
+    itemSelected = randomElement + 1;
     animationController.forward();
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.landscapeLeft,
@@ -60,6 +72,7 @@ class _PeriodicTable extends State<PeriodicTable> with SingleTickerProviderState
               index: index,
               tapFunction: this.selectElement,
               selected: itemSelected == periodicTableElementsBD[index].atomicNumber,
+              size: elementSize,
           )
       );
     });
@@ -99,11 +112,13 @@ class _PeriodicTable extends State<PeriodicTable> with SingleTickerProviderState
 
     Size size = MediaQuery.of(context).size;
     Orientation or = MediaQuery.of(context).orientation;
-
     if(!firstRender){
       if(or == Orientation.landscape){
         baseWidth = size.width;
         baseHeight = size.height;
+        elementSize = Size(0.047*baseWidth,0.047*baseWidth);
+        spaceP23 = 10*((0.047*baseWidth)+2);
+        spacePL = 2*((0.047*baseWidth)+2);
         firstRender = true;
       }
     }
@@ -186,8 +201,7 @@ class _PeriodicTable extends State<PeriodicTable> with SingleTickerProviderState
               return FadeTransition(
                   opacity: animation,
                   child: Center(
-                      child:
-                      Container(
+                      child: Container(
                         width: baseWidth*0.98,
                         height: baseHeight*0.95,
                         //margin: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
@@ -209,55 +223,60 @@ class _PeriodicTable extends State<PeriodicTable> with SingleTickerProviderState
                                 )
                             ),
                             Positioned(
-                                top: 15,
-                                left: 250,
+                                top: baseHeight > 360 ? 28 : 23,
+                                left: 240,
                                 child: ColorInfo()
                             ),
                             Positioned(
-                                top: 20,
+                                top: baseHeight > 360 ? 28 : 23,
                                 left: 130,
                                 width: 110,
                                 height: 110,
                                 child: selectedElement
                             ),
                             Positioned(
-                                top: 20,
-                                right: 10,
+                                top: 25,
+                                right: 15,
                                 child: GestureDetector(
                                   onTap: (){
                                     Navigator.pushNamed(context, '/description', arguments: {'z': itemSelected});
                                   },
-                                  child: Row(
-                                    children: [
-                                      Icon(Icons.remove_red_eye, color: QColors.OTHER_TEXT, size: 20),
-                                      SizedBox(width: 5),
-                                      Text('detalles', style: TextStyle(color: QColors.OTHER_TEXT, fontSize: 10))
-                                    ],
+                                  child: Container(
+                                    height: 30,
+                                    width: 70,
+                                    child: Row(
+                                      children: [
+                                        Icon(Icons.remove_red_eye, color: QColors.OTHER_TEXT, size: 20),
+                                        SizedBox(width: 5),
+                                        Text('detalles', style: TextStyle(color: QColors.OTHER_TEXT, fontSize: 10))
+                                      ],
+                                    ),
                                   ),
                                 )
                             ),
                             Positioned(
                                 bottom: 0,
-                                right: 18,
+                                left: 32,
                                 child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Row(
                                       children: [
                                         buildGroup(0,generate: 1),
-                                        SizedBox(width: 578,),
+                                        //SizedBox(width: 612), //578
                                       ],
                                     ),
                                     Row(
                                       children: [
                                         buildGroup(2,generate: 2),
-                                        SizedBox(width: 340),
+                                        SizedBox(width: spaceP23),
                                         buildGroup(4, generate: 6)
                                       ],
                                     ),
                                     Row(
                                       children: [
                                         buildGroup(10,generate: 2),
-                                        SizedBox(width: 340),
+                                        SizedBox(width: spaceP23),
                                         buildGroup(12, generate: 6)
                                       ],
                                     ),
@@ -266,14 +285,16 @@ class _PeriodicTable extends State<PeriodicTable> with SingleTickerProviderState
                                     buildGroup(54, jump: 14),
                                     buildGroup(86, jump: 14),
                                     Row(
+                                      mainAxisAlignment: MainAxisAlignment.start,
                                       children: [
-                                        SizedBox(width: 68,),
+                                        SizedBox(width: spacePL),
                                         buildGroup(56, generate: 14),
                                       ],
                                     ),
                                     Row(
+                                      mainAxisAlignment: MainAxisAlignment.start,
                                       children: [
-                                        SizedBox(width: 68,),
+                                        SizedBox(width: spacePL),
                                         buildGroup(88, generate: 14)
                                       ],
                                     )
@@ -287,6 +308,7 @@ class _PeriodicTable extends State<PeriodicTable> with SingleTickerProviderState
               );
             }
             else {
+
               return Center(
                 child: Container(
                   height: 350,

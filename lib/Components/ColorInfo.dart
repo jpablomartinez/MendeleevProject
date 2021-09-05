@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:mendeleev/Utils/Colors.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:mendeleev/Utils/Styles.dart';
 
 class ColorInfo extends StatelessWidget {
