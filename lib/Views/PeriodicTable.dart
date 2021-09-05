@@ -24,6 +24,7 @@ class _PeriodicTable extends State<PeriodicTable> with SingleTickerProviderState
   bool firstRender = false;
   int itemSelected = 1;
   Size elementSize = Size(1,1);
+  double spaceP1 = 1;
   double spaceP23 = 1;
   double spacePL = 1;
   Widget selectedElement = Container();
@@ -117,6 +118,7 @@ class _PeriodicTable extends State<PeriodicTable> with SingleTickerProviderState
         baseWidth = size.width;
         baseHeight = size.height;
         elementSize = Size(0.047*baseWidth,0.047*baseWidth);
+        spaceP1 = 16*((0.047*baseWidth)+2);
         spaceP23 = 10*((0.047*baseWidth)+2);
         spacePL = 2*((0.047*baseWidth)+2);
         firstRender = true;
@@ -263,7 +265,7 @@ class _PeriodicTable extends State<PeriodicTable> with SingleTickerProviderState
                                     Row(
                                       children: [
                                         buildGroup(0,generate: 1),
-                                        //SizedBox(width: 612), //578
+                                        SizedBox(width: spaceP1), //578
                                       ],
                                     ),
                                     Row(

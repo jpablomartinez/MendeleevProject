@@ -71,9 +71,10 @@ class _ChemicalElementView extends State<ChemicalElementView> with SingleTickerP
                 children: [
                   //carousel images,
                   Container(
-                    height: 200,
+                    height: 180,
                     width: 170,
-                    color: QColors.PRIMARY_TEXT,
+                    //color: QColors.PRIMARY_TEXT,
+                    child: Image.asset('assets/images/${observer.element.atomicNumber}.png'),
                   ),
                   SizedBox(height: 20),
                   Row(
